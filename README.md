@@ -7,4 +7,4 @@ The few things to do after my windows installation. :coffee:
 
 - Put this in powershell (win key + x, a):
   - `choco upgrade all`
-  - `choco install firefox thunderbird keepassxc vlc 7zip xnviewmp putty filezilla sharex steam discord qbittorrent teamspeak taiga sumatrapdf crystaldiskinfo protonmailbridge spotify osu telegram openvpn voicemeeter treesizefree rufus`
+  - `choco install firefox thunderbird keepassxc vlc 7zip.install xnviewmp putty filezilla sharex steam discord qbittorrent teamspeak taiga sumatrapdf crystaldiskinfo protonmailbridge spotify osu telegram openvpn voicemeeter treesizefree rufus`
