@@ -2,8 +2,8 @@
 The few things to do after my windows installation. :coffee:
 
 ## Packages to get with chocolatey 
-> If you do not have chocolatey, put this in cmd.exe (run as admin):
-`@"%SystemRoot%\System32\WindowsPowerShell\v1.0\powershell.exe" -NoProfile -InputFormat None -ExecutionPolicy Bypass -Command "iex ((New-Object System.Net.WebClient).DownloadString('https://chocolatey.org/install.ps1'))" && SET "PATH=%PATH%;%ALLUSERSPROFILE%\chocolatey\bin"`
+> If you do not have chocolatey, put this in powershell (run as admin):
+`Set-ExecutionPolicy Bypass -Scope Process -Force; [System.Net.ServicePointManager]::SecurityProtocol = [System.Net.ServicePointManager]::SecurityProtocol -bor 3072; iex ((New-Object System.Net.WebClient).DownloadString('https://community.chocolatey.org/install.ps1'))`
 
 - Put this in powershell (win key + x, a):
   - `choco upgrade all`
